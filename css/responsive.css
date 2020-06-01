@@ -1,0 +1,131 @@
+@media print,
+screen and (max-width: 60em) {
+	header {
+		height: 50px !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.shop-now {
+		display: none !important;
+		margin: 0px !important;
+	}
+
+	.search {
+		margin-top: 10px !important;
+		height: 30px !important;
+		z-index: 33;
+	}
+
+	.dropdown {
+		position: absolute !important;
+		background: #52a91e;
+		top: 28px;
+		left: 0px;
+		padding-top: 10px;
+		width: 100%;
+		height: 30px;
+		padding-bottom: 5px;
+	}
+
+	.custom-li {
+		width: 80px;
+	}
+
+	.cart-icon {
+		margin-top: 10px !important;
+	}
+
+	.add-container {
+		margin-top: 300px;
+	}
+
+
+	.add {
+		height: 8em !important;
+	}
+
+	.add p {
+		font-size: 23px;
+		padding: 10px;
+	}
+
+	.card-section {
+		margin-top: -80px;
+	}
+
+	.padding {
+		margin-left: 0px !important;
+	}
+
+	.slider {
+		margin-top: 20px !important;
+	}
+	
+
+}
+
+@media print,
+screen and (max-width: 40em) {
+	.product {
+		width: 100% !important;
+	}
+
+	.product .card {
+		height: auto !important;
+		flex-direction: row !important;
+		border-right: none !important;
+		max-width: 100%;
+		overflow: visible;
+	}
+	.product_description{
+		display: none;
+	}
+
+	.product .card-section {
+		margin-top: 0px !important;
+		text-align: left !important;
+	}
+
+	.add-container {
+		display: none !important;
+	}
+
+	.red {
+		background-color: #52a91e;
+	}
+
+	
+	#search-box {
+		width: auto !important;
+	}
+
+	.search {
+		width: auto !important;
+	}
+	
+	.productCard img{
+		width: auto;
+height: 180px;
+margin-left: -40px;
+padding-top: 30px;
+	}
+}
+
+@media print,
+screen and (max-width:40em) {
+	.fa-plus {
+		margin-left: 0px !important;
+	}
+}
+
+@media print,
+screen and (max-width: 40em) {
+	.aisle-grid {
+		margin-top: 10rem !important;
+	}
+
+	.footer h2 {
+		font-size: 17px !important;
+	}
+}

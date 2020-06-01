@@ -1,0 +1,286 @@
+/* BROWSER */
+/* CART */
+/* MOBILE */
+/* slick code */
+body {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+.more-top {
+	margin-top: 20px;
+	margin-top: 2.0rem;
+}
+.card-section {
+	margin-top: -60px;
+	text-align: left;
+}
+h3 {
+	font-size: 23px;
+	color: #52a91e;
+}
+h4 {
+	font-size: 17px;
+}
+header {
+	background-color: #52a91e;
+	height: 90px;
+	img {
+		height: 80%;
+		margin: 1%;
+		margin-left: 4%;
+	}
+	input {
+		width: 40em;
+		height: 36px;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+}
+.heading-cross {
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	h5 {
+		color: #52a91e;
+		font-size: 40px;
+		border-bottom: #52a91e 5px solid;
+		text-align: left;
+		width: 70%;
+		border-radius: 5px;
+	}
+}
+.fa-window-close {
+	width: 30px;
+	cursor: pointer;
+}
+.fa-plus {
+	color: #52a91e;
+	border: 1px solid #52a91e;
+	height: 20px;
+}
+.fa-minus {
+	color: #52a91e;
+	border: 1px solid #52a91e;
+	height: 20px;
+}
+.product-details {
+	display: flex;
+	justify-content: space-between;
+	color: black;
+	margin: 50px;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: black 2px solid;
+	img {
+		width: 60px;
+		height: 60px;
+		margin-top: -30px;
+	}
+}
+.plus-minus1 {
+	display: flex;
+	justify-content: center;
+	h4 {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+i {
+	cursor: pointer;
+}
+span {
+	color: white;
+	margin-left: 5%;
+}
+nav {
+	a {
+		background-color: white;
+	}
+}
+.add {
+	height: 20%;
+	width: 30%;
+	z-index: 99;
+	margin-top: -30px;
+	padding-left: 20px;
+	margin-right: 10px;
+}
+.back-color {
+	background-color: #52a91e;
+	color: white;
+}
+.back-colorr {
+	background-color: #f2f6f9;
+}
+p {
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	padding: 25px;
+}
+.cart-container {
+	h1 {
+		font-size: 30px;
+		text-align: end;
+	}
+	span {
+		color: black;
+	}
+	button {
+		width: 100px;
+		height: 40px;
+		font-size: 20px;
+		padding: 5px;
+		border-radius: 5px;
+	}
+}
+.colorr {
+	background-color: #f2f6f9;
+}
+.padd {
+	margin: 10px;
+	margin-top: -30px;
+}
+.padding {
+	padding: 30px;
+	margin-left: 30px;
+	width: 200px;
+	height: 200px;
+	align-content: center;
+}
+h1 {
+	color: #52a91e;
+	margin-left: 380px;
+}
+.card {
+	border-radius: 0px;
+	border-top: none;
+	border-left: none;
+}
+.no-right {
+	border-right: none;
+}
+.aisle {
+	.card {
+		border-radius: 17px;
+	}
+}
+.product {
+	border-radius: 0px;
+	background-color: none;
+}
+.cart_container {
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+.cart_border {
+	bottom: 1.0rem;
+	top: 1.0rem;
+	left: 1.0rem;
+	right: 1.0rem;
+	z-index: 100;
+	background-color: white;
+	border: 1px solid black;
+	padding: 2.0rem;
+}
+.height-1 {
+	height: 5.0rem;
+}
+.height-5 {
+	height: 2.0rem;
+}
+.height-3 {
+	height: 25rem;
+}
+.height-6 {
+	height: 50rem;
+	text-align: center;
+}
+.footer {
+	margin-top: 300px;
+	background-color: #52a91e;
+}
+h5 {
+	font-size: 25px;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+.plus-minus {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 6px;
+	h4 {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	img {
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+	}
+}
+.border-1 {
+	border-bottom: 2px solid gainsboro;
+}
+.height-2 {
+	height: 16.0rem;
+}
+.height-4 {
+	height: 13.0rem;
+}
+.more-top1 {
+	padding-top: 2.0rem;
+}
+.no-top {
+	padding-top: 0px;
+}
+.not-much-top {
+	margin-top: 8px;
+}
+button {
+	color: wheat;
+	background-color: #52a91e;
+	text-align: center;
+	cursor: pointer;
+	width: 90px;
+	height: 30px;
+}
+button.clicked {
+	scale: 0.8;
+	transition: all 0.2 ease-in-out;
+}
+.slick-dots {
+	margin-bottom: 3rem;
+}
+@media print {
+	.red {
+		background-color: #52a91e;
+	}
+	header {
+		input {
+			width: 100%;
+		}
+		height: 50px;
+	}
+}
+@media screen and (max-width: 40em) {
+	.red {
+		background-color: #52a91e;
+	}
+	header {
+		input {
+			width: 100%;
+		}
+		height: 50px;
+	}
+}
